@@ -27,6 +27,7 @@ const bin = new BinWrapper()
   .use(name)
   .run(['help'], err => {
     if (err) {
+      console.error(err)
       throw new Error('Install failed')
     }
   })
