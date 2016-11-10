@@ -13,5 +13,13 @@
   "license": "MIT",
   "dependencies": {
     "bin-wrapper": "^3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-jigsaw/sentry-cli-bin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e-jigsaw/sentry-cli-bin/issues"
+  },
+  "homepage": "https://github.com/e-jigsaw/sentry-cli-bin#readme"
 }
