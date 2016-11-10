@@ -1,11 +1,17 @@
 {
   "name": "sentry-cli-bin",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Sentry CLI bin",
-  "main": "index.js",
+  "bin": {
+    "sentry-cli": "bin/sentry-cli.js"
+  },
   "scripts": {
+    "postinstall": "node install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jigsaw (http://jgs.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bin-wrapper": "^3.0.2"
+  }
 }
