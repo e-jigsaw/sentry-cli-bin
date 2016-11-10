@@ -1,6 +1,6 @@
 {
   "name": "sentry-cli-bin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sentry CLI bin",
   "bin": {
     "sentry-cli": "bin/sentry-cli.js"
